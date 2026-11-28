@@ -16,6 +16,10 @@ typedef struct {
 /* The prepared pattern. You may add fields. */
 typedef struct {
   const Options *opts;
+  int start_flag;
+  int end_flag;
+  const char *pattern;
+  size_t pattern_len;
 } Matcher;
 
 /* Parses argv. Options start with '-' and end at the first argument that

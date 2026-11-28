@@ -48,3 +48,24 @@ int parse_args(int argc, char *argv[], Options *opts) {
   opts->first_file = i + 1;
   return 0;
 }
+
+int matcher_init(Matcher *m, const Options *opts) {
+  m->opts = opts;
+  m->start_flag = 0;
+  m->end_flag = 0;
+  m->pattern_len = strlen(opts->pattern);
+  m->pattern = opts->pattern;
+
+  if (m->pattern_len > 0 && m->pattern[m->pattern_len - 1] == '$') {
+    m->pattern_len--;
+    m->end_flag = 1;
+  }
+
+  if (m->pattern[0] == '^') {
+    m->pattern_len--;
+    m->start_flag = 1;
+    m->pattern++;
+  }
+
+  return 0;
+}
