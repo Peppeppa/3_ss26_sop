@@ -5,19 +5,17 @@
 #include <stdio.h>
 
 /* Result of the argument parsing. */
-typedef struct
-{
-    int ignore_case;        /* -i: ignore upper/lower case                    */
-    int numbers;            /* -n: print line numbers                         */
-    int count_only;         /* -c: print only the number of matching lines    */
-    const char *pattern;    /* pattern to search for (see matcher_match)      */
-    int first_file;         /* index of the first FILE in argv, or argc       */
+typedef struct {
+  int ignore_case;     /* -i: ignore upper/lower case                    */
+  int numbers;         /* -n: print line numbers                         */
+  int count_only;      /* -c: print only the number of matching lines    */
+  const char *pattern; /* pattern to search for (see matcher_match)      */
+  int first_file;      /* index of the first FILE in argv, or argc       */
 } Options;
 
 /* The prepared pattern. You may add fields. */
-typedef struct
-{
-    const Options *opts;
+typedef struct {
+  const Options *opts;
 } Matcher;
 
 /* Parses argv. Options start with '-' and end at the first argument that
