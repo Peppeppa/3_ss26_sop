@@ -10,23 +10,23 @@ Alle **17 Dokumente (451 PDF-Seiten)** wurden aus der vorhandenen PDF-Textschich
 
 | ID | Titel | Typ | Textquelle | Originaldatei | Seiten | SHA-256 (Präfix) | Status |
 | --- | --- | --- | --- | --- | ---: | --- | --- |
-| SOP01 | Introduction to System-oriented Programming | `script` | [SOP01](sources/SOP01.md) | `01-introduction_script_2026-09-25.pdf` | 10 | `a05371c08e6a` | partial |
-| SOP02 | Installing Linux in a Virtual Machine | `script` | [SOP02](sources/SOP02.md) | `02-installing_script_2026-09-25.pdf` | 23 | `7ae9616e9c54` | partial |
-| SOP03 | Working with the Linux Shell | `mixed` | [SOP03](sources/SOP03.md) | `03-working_script_2026-09-25.pdf` | 38 | `f7e775e08696` | partial |
-| SOP04 | Using the Editor VIM | `mixed` | [SOP04](sources/SOP04.md) | `04-using_script_2026-09-25.pdf` | 23 | `d372595cf9f3` | partial |
-| SOP05 | Introduction to Shell Scripts | `mixed` | [SOP05](sources/SOP05.md) | `05-introduction_script_2026-10-03.pdf` | 23 | `08990783a499` | partial |
-| SOP06 | Bash: Strings and Arrays | `mixed` | [SOP06](sources/SOP06.md) | `06-bash_script_2026-10-03.pdf` | 32 | `8ec2763516ce` | partial |
-| SOP07 | Bash: Variables and Arithmetics | `mixed` | [SOP07](sources/SOP07.md) | `07-bash_script_2026-10-03.pdf` | 30 | `1d55d72d1422` | partial |
-| SOP08 | Data Processing on the Command Line | `script` | [SOP08](sources/SOP08.md) | `08-data_script_2026-10-03.pdf` | 11 | `591025adfe27` | partial |
-| SOP10 | Using Git on the Command Line | `mixed` | [SOP10](sources/SOP10.md) | `10-using_script_2026-10-15.pdf` | 47 | `0b0dce4a1b91` | partial |
-| SOP11 | Introduction to C | `mixed` | [SOP11](sources/SOP11.md) | `11-introduction_script_2026-10-19.pdf` | 27 | `f6ea732e118d` | partial |
-| SOP12 | Datatypes and Structs in C | `mixed` | [SOP12](sources/SOP12.md) | `12-datatypes_script_2026-10-17.pdf` | 28 | `be7dcf0d95f1` | partial |
-| SOP13 | Pointers and Memory Management in C | `mixed` | [SOP13](sources/SOP13.md) | `13-pointers_script_2026-10-27.pdf` | 28 | `1ba92afd0e2a` | partial |
-| SOP14 | Build Systems | `script` | [SOP14](sources/SOP14.md) | `14-build_script_2026-10-17.pdf` | 15 | `31fa0cbb98e9` | partial |
-| SOP15 | Using Semaphores for Synchronization | `mixed` | [SOP15](sources/SOP15.md) | `15-using_script_2026-10-25.pdf` | 34 | `ae9da62c986a` | partial |
-| SOP17 | Using the File API | `mixed` | [SOP17](sources/SOP17.md) | `17-using_script_2026-11-10.pdf` | 27 | `f4b8dbc48736` | partial |
-| SOP18 | Using the Linux API | `mixed` | [SOP18](sources/SOP18.md) | `18-using_script_2026-11-06.pdf` | 35 | `2fab13541598` | partial |
-| SOP19 | Debugging of C Programs | `mixed` | [SOP19](sources/SOP19.md) | `19-debugging_script_2026-10-15.pdf` | 20 | `fb6679f7eefc` | partial |
+| SOP01 | Introduction to System-oriented Programming | `script` | [SOP01](units/U01/sources/SOP01.md) | `01-introduction_script_2026-09-25.pdf` | 10 | `a05371c08e6a` | partial |
+| SOP02 | Installing Linux in a Virtual Machine | `script` | [SOP02](units/U02/sources/SOP02.md) | `02-installing_script_2026-09-25.pdf` | 23 | `7ae9616e9c54` | partial |
+| SOP03 | Working with the Linux Shell | `mixed` | [SOP03](units/U03/sources/SOP03.md) | `03-working_script_2026-09-25.pdf` | 38 | `f7e775e08696` | partial |
+| SOP04 | Using the Editor VIM | `mixed` | [SOP04](units/U04/sources/SOP04.md) | `04-using_script_2026-09-25.pdf` | 23 | `d372595cf9f3` | partial |
+| SOP05 | Introduction to Shell Scripts | `mixed` | [SOP05](units/U05/sources/SOP05.md) | `05-introduction_script_2026-10-03.pdf` | 23 | `08990783a499` | partial |
+| SOP06 | Bash: Strings and Arrays | `mixed` | [SOP06](units/U06/sources/SOP06.md) | `06-bash_script_2026-10-03.pdf` | 32 | `8ec2763516ce` | partial |
+| SOP07 | Bash: Variables and Arithmetics | `mixed` | [SOP07](units/U07/sources/SOP07.md) | `07-bash_script_2026-10-03.pdf` | 30 | `1d55d72d1422` | partial |
+| SOP08 | Data Processing on the Command Line | `script` | [SOP08](units/U08/sources/SOP08.md) | `08-data_script_2026-10-03.pdf` | 11 | `591025adfe27` | partial |
+| SOP10 | Using Git on the Command Line | `mixed` | [SOP10](units/U10/sources/SOP10.md) | `10-using_script_2026-10-15.pdf` | 47 | `0b0dce4a1b91` | partial |
+| SOP11 | Introduction to C | `mixed` | [SOP11](units/U11/sources/SOP11.md) | `11-introduction_script_2026-10-19.pdf` | 27 | `f6ea732e118d` | partial |
+| SOP12 | Datatypes and Structs in C | `mixed` | [SOP12](units/U12/sources/SOP12.md) | `12-datatypes_script_2026-10-17.pdf` | 28 | `be7dcf0d95f1` | partial |
+| SOP13 | Pointers and Memory Management in C | `mixed` | [SOP13](units/U13/sources/SOP13.md) | `13-pointers_script_2026-10-27.pdf` | 28 | `1ba92afd0e2a` | partial |
+| SOP14 | Build Systems | `script` | [SOP14](units/U14/sources/SOP14.md) | `14-build_script_2026-10-17.pdf` | 15 | `31fa0cbb98e9` | partial |
+| SOP15 | Using Semaphores for Synchronization | `mixed` | [SOP15](units/U15/sources/SOP15.md) | `15-using_script_2026-10-25.pdf` | 34 | `ae9da62c986a` | partial |
+| SOP17 | Using the File API | `mixed` | [SOP17](units/U17/sources/SOP17.md) | `17-using_script_2026-11-10.pdf` | 27 | `f4b8dbc48736` | partial |
+| SOP18 | Using the Linux API | `mixed` | [SOP18](units/U18/sources/SOP18.md) | `18-using_script_2026-11-06.pdf` | 35 | `2fab13541598` | partial |
+| SOP19 | Debugging of C Programs | `mixed` | [SOP19](units/U19/sources/SOP19.md) | `19-debugging_script_2026-10-15.pdf` | 20 | `fb6679f7eefc` | partial |
 
 ## Themen und Fundstellen
 

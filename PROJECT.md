@@ -18,3 +18,6 @@ Dieses Repository ist für SOP. Die Data-Science-Units U00–U09 und die Portfol
 ## Quellenintegrität
 
 Die aus dem anderen Repository übertragenen Markdown-Dateien sind Texttranskriptionen aus 17 PDFs mit SHA-256 und Seitenreferenzen. Status `partial`, bis alle visuell relevanten Elemente mit den PDF-Originalen abgeglichen sind. Die hochgeladenen binären PDF-Dateien sind nicht im Repository. Weitere Unterlagen dürfen erst nach überprüftem Import als registriert gelten.
+
+## Zielstruktur (28.11.2026)
+Analog zum Data-Science-Repo: `quellen/` für Originale, `units/Uxx/sources/` für Vorlesungen, `labs/`, `portfolio/P1` bis `P6`, `pruefung/`, `projekt_chats/`, `c_uebungen/`, `bash_uebungen/`. Neue Importe nach Study Knowledge 2.0.0, Source Import 1.0.0, Source QA 1.0.0 und Exercise 1.1.0 (ki_skills 0fe1ac6c3bcd7939021b62dce6737e1b39273fc4). Bestehende Quellen bleiben partial.
